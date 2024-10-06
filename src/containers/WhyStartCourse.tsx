@@ -43,7 +43,7 @@ const WhyStartCourse: React.FC = () => {
 			<img src={ChineseChild} alt="" className="w-1/2" />
 
 			<div className="w-1/2 flex flex-col justify-center gap-4">
-				<h1 className="text-[#1F1C14] font-bold text-5xl">
+				<h1 className="text-[#1F1C14] font-bold text-3xl">
 					Why start a course with{" "}
 					<span className="text-[#029BC5]">Fluency Hub</span> ?
 				</h1>

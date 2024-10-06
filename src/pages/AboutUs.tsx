@@ -11,7 +11,7 @@ const AboutUs: React.FC = () => {
 
 			<hr className="w-2/3" />
 
-			<p className="text-[#1F1C14B2] text-xl text-center">
+			<p className="text-[#1F1C14B2] text-lg text-center">
 				Welcome to <span className="text-[#029BC5] font-bold">Fluency Hub</span> a premier
 				language school specializing in English, Spanish, and French education.
 				Our mission is to empower students with the essential communication

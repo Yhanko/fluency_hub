@@ -38,10 +38,10 @@ const Courses: React.FC = () => {
         transition={{ duration: 0.6 }} 
         className="w-full px-20 flex flex-col items-center justify-center h-[80svh] gap-6">
 			<div className="flex flex-col gap-6 items-center w-[50%] text-center">
-				<h1 className="text-[#1F1C14] font-bold text-5xl">
+				<h1 className="text-[#1F1C14] font-bold text-3xl">
 					We have 4 courses for you
 				</h1>
-				<p className="text-xl text-[#1F1C14B2]">
+				<p className="text-lg text-[#1F1C14B2]">
 					Diverse lessons around 4 subjects: French, Spanish, English,
 					accompanied by extra activities to enhance knowledge and explore
 					students' abilities, accelerating their learning

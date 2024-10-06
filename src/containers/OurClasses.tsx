@@ -37,15 +37,15 @@ const OurClasses: React.FC = () => {
 			className="w-full px-20 py-10 flex flex-col items-center justify-center mb-40 "
 		>
 			<div className="flex flex-col gap-4 items-center w-1/2 text-center">
-				<h1 className="text-[#1F1C14] font-bold text-5xl">
+				<h1 className="text-[#1F1C14] font-bold text-3xl">
 					What are our classes like?
 				</h1>
-				<p className="text-xl text-[#1F1C14B2]">
+				<p className="text-lg text-[#1F1C14B2]">
 					We teach in-person and virtual classes, managing groups on platforms
 					like Discord and WhatsApp for each level.
 				</p>
 				<a
-						href="/sign-up" className="flex items-center px-12 py-3 rounded-2xl bg-[#FAB900] hover:bg-[#362B0E] hover:text-white text-[#362B0E] h-12 font-extrabold w-fit transition-colors duration-300">
+						href="/sign-up" className="flex items-center px-12 py-3 rounded-2xl bg-[#FAB900] hover:bg-[#362B0E] hover:text-white text-[#362B0E] h-12 font-bold w-fit transition-colors duration-300">
 					Sign Up
 				</a>
 			</div>

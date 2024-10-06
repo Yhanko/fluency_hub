@@ -29,7 +29,7 @@ const UsersRate: React.FC = () => {
 			transition={{ duration: 0.6 }}
 			className="bg-[#FFF8E5] px-20 py-10 w-full flex flex-col justify-center items-center h-[80svh] mb-40"
 		>
-			<h1 className="text-[#1F1C14] font-bold text-5xl">
+			<h1 className="text-[#1F1C14] font-bold text-3xl">
 				Student testimonials
 			</h1>
 

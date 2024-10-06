@@ -32,7 +32,7 @@ const Newsletter: React.FC = () => {
 			<div className="relative w-full flex items-center justify-center h-full">
 				<img src={NewsletterLayout} alt="" className="w-full" />
 				<div className="absolute flex flex-col items-center justify-center gap-8 text-white">
-					<h1 className="text-4xl font-semibold">
+					<h1 className="text-3xl font-semibold">
 						Subscribe to receive our updates!
 					</h1>
 
