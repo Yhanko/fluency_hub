@@ -2,6 +2,7 @@ import { RouteObject } from "react-router-dom"
 import LandingLayout from "../layout/LandingLayout"
 import NotFound from "../pages/NotFound"
 import Home from "../pages/Home"
+import SignUp from "../pages/SignUp"
 
 export const routes: RouteObject[] = [
 	{
@@ -10,6 +11,10 @@ export const routes: RouteObject[] = [
 			{
 				path: "/",
 				element: <Home />,
+			},
+			{
+				path: "/sign-up",
+				element: <SignUp />,
 			},
 		],
 	},

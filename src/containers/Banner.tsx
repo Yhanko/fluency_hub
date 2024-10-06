@@ -47,9 +47,12 @@ const Banner: React.FC = () => {
 						</p>
 					</div>
 
-					<button className="px-10 py-2 rounded-2xl bg-[#FAB900] hover:bg-[#362B0E] hover:text-white text-[#362B0E] h-12 font-extrabold w-fit transition-colors duration-300">
+					<a
+						href="/sign-up"
+						className="flex items-center px-10 py-2 rounded-2xl bg-[#FAB900] hover:bg-[#362B0E] hover:text-white text-[#362B0E] h-12 font-extrabold w-fit transition-colors duration-300"
+					>
 						Sign Up
-					</button>
+					</a>
 				</div>
 
 				<img src={GirlAds} alt="" className="w-1/2 absolute right-10" />

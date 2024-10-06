@@ -44,9 +44,10 @@ const OurClasses: React.FC = () => {
 					We teach in-person and virtual classes, managing groups on platforms
 					like Discord and WhatsApp for each level.
 				</p>
-				<button className="px-12 py-3 rounded-2xl bg-[#FAB900] hover:bg-[#362B0E] hover:text-white text-[#362B0E] h-12 font-extrabold w-fit transition-colors duration-300">
+				<a
+						href="/sign-up" className="flex items-center px-12 py-3 rounded-2xl bg-[#FAB900] hover:bg-[#362B0E] hover:text-white text-[#362B0E] h-12 font-extrabold w-fit transition-colors duration-300">
 					Sign Up
-				</button>
+				</a>
 			</div>
 
 			<img src={VideoCall} alt="" className="mb-10" />
