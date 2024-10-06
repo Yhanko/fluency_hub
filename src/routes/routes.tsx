@@ -3,6 +3,8 @@ import LandingLayout from "../layout/LandingLayout"
 import NotFound from "../pages/NotFound"
 import Home from "../pages/Home"
 import SignUp from "../pages/SignUp"
+import AboutUs from "../pages/AboutUs"
+import Commentary from "../pages/Commentary"
 
 export const routes: RouteObject[] = [
 	{
@@ -15,6 +17,14 @@ export const routes: RouteObject[] = [
 			{
 				path: "/sign-up",
 				element: <SignUp />,
+			},
+			{
+				path: "/about-us",
+				element: <AboutUs />,
+			},
+			{
+				path: "/commentary",
+				element: <Commentary />,
 			},
 		],
 	},
