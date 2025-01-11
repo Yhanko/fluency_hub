@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: fluency-hub
+    env: node
+    region: oregon # Escolha a região apropriada
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    plan: free # Ou outra opção, como starter ou standard
+    branches:
+      preview:
+        autoDeploy: true # Para habilitar Auto-Deploy em branches de preview
+        envVars:
+          - key: NODE_ENV
+            value: development
